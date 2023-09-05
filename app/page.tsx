@@ -3,6 +3,7 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SquigglyLines from "../components/SquigglyLines";
+import Card from '../components/Card';
 
 export default function HomePage() {
   return (
@@ -52,6 +53,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <h1 className="mx-auto font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">
+          Business
+        </h1>
       </main>
       <Footer />
     </div>
