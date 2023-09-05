@@ -12,6 +12,15 @@ export default function Header() {
         </h1>
       </Link>
       <a
+        href="https://vercel.fyi/roomGPT"
+        target="_blank"
+        rel="noreferrer"
+        className="border border-gray-700 rounded-lg py-2 px-4 text-gray-400 text-sm mb-5 transition duration-300 ease-in-out"
+      >
+        130亿/700亿模型级别 全球TOP1
+        <span className="text-blue-600 mx-2">(130亿 跨级别 超越650亿 meta模型)</span>
+      </a>
+      <a
         className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-blue-600 text-white px-5 py-2 text-sm shadow-md hover:bg-blue-500 bg-blue-600 font-medium transition"
         href="https://github.com/Nutlope/roomGPT"
         target="_blank"
